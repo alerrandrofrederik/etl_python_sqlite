@@ -15,4 +15,4 @@ Na segunda versão do pipeline vamos carregar somente registros com quantidade p
 
 ## Terceira etapa: job_v3.py
 Na terceira versão do pipeline vamos remover o "ponto" para evitar que o numero seja truncado.
-![correção valor coluna receita total]()
+![correção valor coluna receita total](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job3.png)
