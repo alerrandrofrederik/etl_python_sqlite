@@ -25,3 +25,31 @@ obs: após criado o pipeline identificamos que a coluna de margem de lucro está
 ## Quinta etapa: job_v5.py
 obs: identificamos que o valor da margem de lucro tem varias casas decimais e precisaremos corrigir isso.
 ![correção valor coluna margem de lucro](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job5.png)
+
+# Como concectar o SQLite com Power BI
+
+### Passo 1
+Baixar  e instalar o Driver do SQLite:
+[Driver SQLite](http://www.ch-werner.de/sqliteodbc/)
+
+### Passo 2
+Configurar a conexão ODBC
+
+#### 1. Abrir o ODBC:
+
+![abrir o ODBC](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/abrir odbc.png)
+
+#### 2. Adicionar nova fonte:
+
+![adicionar nova fonte](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/adicionar_fonte.png)
+
+![seleciona o driver](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/seleciona o driver.png)
+
+![configurar o driver](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/configuracao.png)
+
+![conectar ao banco de dados](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/selecao_DB.png)
+
+### Passo 3
+Conectar ao banco de dados no Power BI comm conexão ODBC
+
+![conectar ao PBI](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/conexao_PBI.png)
