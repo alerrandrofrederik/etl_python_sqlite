@@ -11,4 +11,8 @@ criar uma pipeline de extração, limpeza, transformação e enriquecimento de d
 
 ## Segunda etapa: job_v2.py
 Na segunda versão do pipeline vamos carregar somente registros com quantidade produzida superior a 10 conforme a regra de negócio. Também foi restruturado o código para excluir a tabela caso já exista no banco de dados.
-![Tabela filtrada]()
+![Tabela filtrada](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job2.png)
+
+## Terceira etapa: job_v3.py
+Na terceira versão do pipeline vamos remover o "ponto" para evitar que o numero seja truncado.
+![correção valor coluna receita total]()
