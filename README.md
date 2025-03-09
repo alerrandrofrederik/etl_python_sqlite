@@ -21,3 +21,7 @@ Na terceira versão do pipeline vamos remover o "ponto" para evitar que o numero
 Na quarta versão do pipeline vamos Enriquecer a base adicionando no destino uma coluna com a margem de lucro de cada produto
 obs: após criado o pipeline identificamos que a coluna de margem de lucro está com varias casas decimais e precisaremos corrigir isso.
 ![correção valor coluna margem de lucro](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job4.png)
+
+## Quinta etapa: job_v5.py
+obs: identificamos que o valor da margem de lucro tem varias casas decimais e precisaremos corrigir isso.
+![correção valor coluna margem de lucro](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job5.png)
