@@ -16,3 +16,8 @@ Na segunda versão do pipeline vamos carregar somente registros com quantidade p
 ## Terceira etapa: job_v3.py
 Na terceira versão do pipeline vamos remover o "ponto" para evitar que o numero seja truncado.
 ![correção valor coluna receita total](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job3.png)
+
+## Quarta etapa: job_v4.py
+Na quarta versão do pipeline vamos Enriquecer a base adicionando no destino uma coluna com a margem de lucro de cada produto
+obs: após criado o pipeline identificamos que a coluna de margem de lucro está com varias casas decimais e precisaremos corrigir isso.
+![correção valor coluna margem de lucro](https://github.com/alerrandrofrederik/etl_python_sqlite/blob/main/imagens/job4.png)
